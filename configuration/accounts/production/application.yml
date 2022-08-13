@@ -1,9 +1,7 @@
 server:
   port: 7777
 
-spring:
-  application:
-    name: accounts
+accounts:
   datasource:
     url: jdbc:mysql://localhost:3306/accounts?useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Warsaw&autoReconnect=true
     username: root
@@ -11,6 +9,5 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  accounts:
-    allow-get-accounts: true
+  allow-get-accounts: true
 
