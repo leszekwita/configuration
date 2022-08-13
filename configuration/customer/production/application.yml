@@ -9,5 +9,5 @@ spring:
     jpa:
       hibernate:
         ddl-auto: update
-    customer:
-    allow-get-customer: true
+      customer:
+        allow-get-customer: true
