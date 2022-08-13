@@ -1,13 +1,14 @@
 server:
   port: 7777
 spring:
-  name: accounts
   datasource:
-    url: jdbc:mysql://localhost:3306/accounts?useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Warsaw&autoReconnect=true
-    username: root
     password: 1234
+    url: "jdbc:mysql://localhost:3306/accounts?useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Warsaw&autoReconnect=true"
+    username: root
   jpa:
-    hibernate:
-      ddl-auto: update
     accounts:
       allow-get-accounts: true
+    hibernate:
+      ddl-auto: update
+  name: accounts
+
