@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/accounts?useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Warsaw&autoReconnect=true
     username: root
-    password:
+    password: 1234
   allow-get-accounts: true
   jpa:
     hibernate:
