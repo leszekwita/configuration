@@ -1,12 +1,13 @@
 server:
   port: 7777
-accounts:
+spring:
+  application:
+    name: ACCOUNT-SERVICE
   datasource:
     url: jdbc:mysql://localhost:3306/accounts?useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Warsaw&autoReconnect=true
     username: root
     password:
-    ddl-auto: update
   allow-get-accounts: true
-
-
-
+  jpa:
+    hibernate:
+      ddl-auto: update
