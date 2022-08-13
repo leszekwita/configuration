@@ -1,9 +1,10 @@
+accounts:
+  allow-get-accounts: true
+  datasource:
+    ddl-mode: update
+    password: 1234
+    url: "jdbc:mysql://localhost:3306/accounts"
+    username: root
 server:
   port: 7777
-accounts:
-  datasource:
-    url: jdbc:mysql://localhost:3306/accounts
-    username: root
-    password: 1234
-  allow-get-accounts: true
 
