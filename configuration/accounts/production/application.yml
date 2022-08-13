@@ -10,4 +10,4 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-        accounts:allow-get-accounts:true
+        allow-get-accounts:true
