@@ -6,7 +6,7 @@ accounts:
     username: root
     password:
     ddl-auto: update
-     allow-get-accounts:true
+  allow-get-accounts: true
 
 
 
